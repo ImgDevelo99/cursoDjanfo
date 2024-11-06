@@ -1,0 +1,11 @@
+1.para crear el proyecto
+    django-admin startproject tienda
+2.  cd tienda
+3.  inicializamos la aplicacion
+    python manage.py startapp productos   
+4. crear la migracion
+    python manage.py makemigrations
+5. agreagr la migracion 
+    python manage.py migrate    
+6. correr la aplicacion
+    python manage.py runserver       
