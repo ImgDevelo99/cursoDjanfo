@@ -11,6 +11,7 @@ class Producto(models.Model):
         return self.nombre
 
 
+
 # python manage.py makemigrations
 # python manage.py migrate
 #python manage.py runserver
