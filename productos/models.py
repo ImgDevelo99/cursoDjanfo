@@ -2,9 +2,9 @@ from django.db import models
 
 # Create your models here.
 class Producto(models.Model):
-    nombre = models.CharField(max_length=50)
+    nombre = models.CharField(max_length=100)
     descripcion = models.TextField()
-    precio = models.DecimalField(max_digits=20, decimal_places=2)
+    precio = models.DecimalField(max_digits=10, decimal_places=2)
     cantidad = models.IntegerField()
 
     def __str__(self):
